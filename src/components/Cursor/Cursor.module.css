@@ -1,0 +1,14 @@
+.largeCircle, .smallCircle{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #c4c4c4;
+    position: fixed;
+}
+
+.smallCircle{
+    width: 8px;
+    height: 8px;
+    background-color: #c4c4c4;
+}

@@ -1,0 +1,11 @@
+.button{
+    width: 32px;
+    height: 32px;
+    color: #140430;
+    cursor: pointer;
+}
+
+.butWrapper{
+    display: flex;
+    gap: 15px;
+}

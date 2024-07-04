@@ -1,0 +1,14 @@
+.wrapper {
+  position: fixed;
+  width: 600px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8fr 1fr 1fr 3.5fr;
+  gap: 5px 0px;
+  grid-auto-flow: row;
+  justify-items: center;
+}
