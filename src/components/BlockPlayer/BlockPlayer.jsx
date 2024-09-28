@@ -15,8 +15,8 @@ const BlockPlayer = ({id}) => {
     fetchOneSong(id).then(data=>{
       setName(data.name)
       setAuthor(data.author)
-      setImg('https://srv.flowers-pro-vp.ru/'+data.img)
-      setFile('https://srv.flowers-pro-vp.ru/'+data.file)
+      setImg('https://server.flowersproplayer.ru/'+data.img)
+      setFile('https://server.flowersproplayer.ru/'+data.file)
     })
   
     console.log(name, author);
